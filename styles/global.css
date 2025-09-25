@@ -18,7 +18,7 @@
   --highlights: #000000;
   --background: #fafafa;
 
-  --ff-base: "Montserrat", sans-serif
+  --ff-base: 'Montserrat', sans-serif;
 
   --text-sm: 0.875rem;
   --text-base: 1rem;
@@ -42,4 +42,9 @@ h1 {
 h2 {
   font-size: var(--text-lg);
   line-height: 1.2;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
